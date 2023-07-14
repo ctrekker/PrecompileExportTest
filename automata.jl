@@ -26,7 +26,8 @@ md"""
 colors = 4
 
 # ╔═╡ 29c686d4-a08a-4db5-9ef2-9841e93ab088
-rule_count = colors^(3 * (colors - 1) + 1)
+# rule_count = colors^(3 * (colors - 1) + 1)
+rule_count = 10000
 
 # ╔═╡ a3feddc4-6f35-4756-9ba4-9553e15e0e08
 @bind _rule_number NumberField(0:(rule_count-1))
