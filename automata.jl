@@ -23,7 +23,7 @@ md"""
 """
 
 # ╔═╡ 729cbfa4-383e-4f26-9ad5-a8ce282778ab
-@bind colors Slider(2:4; show_value=true)
+colors = 4
 
 # ╔═╡ 29c686d4-a08a-4db5-9ef2-9841e93ab088
 rule_count = colors^(3 * (colors - 1) + 1)
@@ -1057,9 +1057,9 @@ version = "17.4.0+0"
 # ╔═╡ Cell order:
 # ╟─9fb78cea-42e8-407c-badd-915a29558f64
 # ╟─1572b0da-b756-4f60-8de6-746b95207621
-# ╟─729cbfa4-383e-4f26-9ad5-a8ce282778ab
+# ╠═729cbfa4-383e-4f26-9ad5-a8ce282778ab
 # ╟─a3feddc4-6f35-4756-9ba4-9553e15e0e08
-# ╟─29c686d4-a08a-4db5-9ef2-9841e93ab088
+# ╠═29c686d4-a08a-4db5-9ef2-9841e93ab088
 # ╟─0175281e-0632-45f1-a1d0-a42e5288f9c9
 # ╠═000e94fd-ae30-4409-8297-4e75723538b1
 # ╠═4cfb2077-4bec-4c36-b6fa-4644a5ba98bd
